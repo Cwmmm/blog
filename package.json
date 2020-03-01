@@ -1,7 +1,7 @@
 {
-  "name": "client_side",
+  "name": "JS基础",
   "version": "1.0.0",
-  "description": "JS常用的数组操作demo",
+  "description": "js基础笔记以及笔记源码",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
