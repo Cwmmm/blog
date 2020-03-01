@@ -1,1 +1,1 @@
-import './example/APIs'
+import './原型,原型链,继承'
