@@ -58,6 +58,8 @@ console.log(Object.prototype.toString.call(undefined))
 console.log(Object.prototype.toString.call(sym))
 console.log(Object.prototype.toString.call(obj))
 console.log(Object.prototype.toString.call(str2))
+console.log(Object.prototype.toString.call(fun))
+console.log(Object.prototype.toString.call([1,2,3]))
 
 
 

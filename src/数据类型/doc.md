@@ -72,8 +72,11 @@ console.log(Object.prototype.toString.call(null))//[object Null]
 console.log(Object.prototype.toString.call(undefined))//[object Undefined]
 console.log(Object.prototype.toString.call(sym))//[object Symbol]
 console.log(Object.prototype.toString.call(obj))//[object Object]
+console.log(Object.prototype.toString.call(function(){}))//[object Function]
+console.log(Object.prototype.toString.call([1,2,3]))//[object Array]
 console.log(Object.prototype.toString.call(str2))//[object String]
+
 ```
->包装类也可以准确判断
+
 
 
