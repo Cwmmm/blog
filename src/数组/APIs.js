@@ -64,3 +64,35 @@ const arr6=[]
 /**不改变自身 */
 /**遍历方法 */
 /** */
+
+
+//二维数组的小bug
+//浅拷贝，每个二维数组之间是引用关系，所以改变一个就会改变四个
+const innerArr= new Array(4).fill(new Array(4).fill(0))
+console.log(innerArr)
+// 0: (4) [0, 2, 0, 0]
+// 1: (4) [0, 2, 0, 0]
+// 2: (4) [0, 2, 0, 0]
+// 3: (4) [0, 2, 0, 0]
+innerArr[0][1]=2
+console.log(innerArr)
+// 0: (4) [0, 2, 0, 0]
+// 1: (4) [0, 2, 0, 0]
+// 2: (4) [0, 2, 0, 0]
+// 3: (4) [0, 2, 0, 0]
+
+
+
+//
+const innerArr1=[]
+for( let i = 0; i < 4; i++){
+  innerArr1[i]=new Array()
+  for( let j = 0; j < 4; j++){
+    innerArr1[i].push(j*i)
+  }  
+}
+console.log(innerArr1)
+// 0: (4) [0, 0, 0, 0]
+// 1: (4) [0, 1, 2, 3]
+// 2: (4) [0, 2, 4, 6]
+// 3: (4) [0, 3, 6, 9]

@@ -1,7 +1,7 @@
 {
-  "name": "JS",
+  "name": "basic",
   "version": "1.0.0",
-  "description": "js基础笔记以及笔记源码",
+  "description": "web基础笔记(css,js)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

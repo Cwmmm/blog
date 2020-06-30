@@ -1,11 +1,21 @@
-# JavaScript笔记
-
-### finished:
-* 原型,原型链,继承方式
-* 数组操作
-### unfinished: 
-* 数据类型判断
-* 函数的this指向
-* 闭包
-* 浅拷贝和深拷贝
-* apply call bind
+- [ ] web基础
+  - [ ] JavaScript
+    - [x] 原型/原型链/继承方式
+    - [x] 数组操作
+    - [ ] 数据类型与判断
+    - [ ] 作用域
+    - [ ] 浅拷贝/深拷贝
+    - [ ] this/call/bind/apply
+    - [ ] js执行机制
+    - [ ] 异步事件处理
+  - [ ] ES6
+    - [ ] let/const
+    - [ ] 箭头函数
+    - [ ] 模板字符串
+    - [ ] Promise
+    - [ ] Async
+    - [ ] for of
+    - [ ] Class
+    - [ ] Module
+    - [ ] 解构赋值
+  - [ ] CSS&HTML 
