@@ -64,19 +64,17 @@ console.log(obj3.constructor == Array)//False
 
 * **Object.prototype.toString.call()**
 > 这个方法可以判断所有类型,返回值为字符串 '**[object type]**'
-```
-console.log(Object.prototype.toString.call(123))//[object Number]
-console.log(Object.prototype.toString.call('abc'))//[object String]
-console.log(Object.prototype.toString.call(true))//[object Boolean]
-console.log(Object.prototype.toString.call(null))//[object Null]
-console.log(Object.prototype.toString.call(undefined))//[object Undefined]
-console.log(Object.prototype.toString.call(sym))//[object Symbol]
-console.log(Object.prototype.toString.call(obj))//[object Object]
-console.log(Object.prototype.toString.call(function(){}))//[object Function]
-console.log(Object.prototype.toString.call([1,2,3]))//[object Array]
-console.log(Object.prototype.toString.call(str2))//[object String]
+    console.log(Object.prototype.toString.call(123))//[object Number]
+    console.log(Object.prototype.toString.call('abc'))//[object String]
+    console.log(Object.prototype.toString.call(true))//[object Boolean]
+    console.log(Object.prototype.toString.call(null))//[object Null]
+    console.log(Object.prototype.toString.call(undefined))//[object Undefined]
+    console.log(Object.prototype.toString.call(sym))//[object Symbol]
+    console.log(Object.prototype.toString.call(obj))//[object Object]
+    console.log(Object.prototype.toString.call(function(){}))//[object Function]
+    console.log(Object.prototype.toString.call([1,2,3]))//[object Array]
+    console.log(Object.prototype.toString.call(str2))//[object String]
 
-```
-
+## 数据类型的隐式转换
 
 
