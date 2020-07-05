@@ -9,8 +9,8 @@
     "build": "cross-env NODE_ENV=production webpack --config ./build/webpack.config.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "cwmmm",
+  "license": "MIT",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "cross-env": "^7.0.0",

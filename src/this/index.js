@@ -1,4 +1,5 @@
-
+//webpack应该是通过闭包来避免污染全局作用域
+console.log(this == window) //false
 
 //es5中 顶层对象（window）的属性 === 全局变量
 var name = 'window1'
@@ -40,6 +41,8 @@ a.fn();//undefined
  * a: {}
  * 
  */
+
+
 
 
 
